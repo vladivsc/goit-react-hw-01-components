@@ -1,0 +1,55 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto 40px;
+
+  width: 300px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  list-style: none;
+
+  padding: 15px;
+  
+  border-radius: 35%;
+}
+
+.item:not(:last-child) {
+  margin-right: 5px;
+}
+
+.item:nth-child(even) {
+  background-color: coral;
+}
+.item:nth-child(odd) {
+  background-color: cornflowerblue;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+
+  margin: 0px;
+  
+}
+
+.label {
+  margin-bottom: 5px;
+}
+
+.percentage {
+  font-weight: bold;
+}
