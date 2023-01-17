@@ -1,0 +1,26 @@
+.item {
+  margin-right: 15px;
+  list-style: none;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+
+.status {
+  display: inline-flex;
+  border: 5px solid red;
+  border-radius: 50%;
+}
+
+.active {
+  display: inline-flex;
+  border: 5px solid green;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: bold;
+  text-align: center;
+}

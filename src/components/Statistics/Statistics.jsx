@@ -12,12 +12,10 @@ const Statistics = ({ title, stats }) => {
 
   return (
     <>
-      {title && (
         <section className={styles.statistics}>
-          <h2 className={styles.title}>Upload stats</h2>
+          {title && <h2 className={styles.title}>Upload stats</h2>}
           <ul className={styles.list}>{elements}</ul>
         </section>
-      )}
     </>
   );
 };
